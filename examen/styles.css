@@ -1,0 +1,106 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b2bed6; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo */
+    margin: 50px auto; /* Centramos el contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: #dcf3e5; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Títulos */
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /* Centramos el texto */
+    color: #3b6e7a; /* Color del texto */
+}
+
+/* Presentacion de la papeleria*/
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #475366; /* Color del texto */
+}
+/* nombre de los autores de la pagina web*/
+h4 {
+   font-family: cursive;
+    color: #2f4949; /* Color del texto */
+}
+
+/* Etiquetas de formulario */
+label {
+    font-family: cursive;
+    display: block; /* Cada etiqueta ocupa su propia línea */
+    margin-top: 15px; /* Espaciado superior */
+    font-weight: bold; /* Texto en negrita */
+    color: #555555; /* Color gris para las etiquetas */
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    font-family: cursive;
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 5px; /* Espaciado superior */
+    border: 1px solid #93c0ad; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de texto */
+}
+
+/* Botones */
+input[type="submit"] {
+    background-color: #558cc7; /* Color azul */
+    color: rgb(164, 206, 178); /* Color de texto blanco */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de texto */
+    margin-top: 15px; /* Espaciado superior */
+    width: 100%; /* Ancho completo */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+input[type="submit"]:hover {
+    background-color: #6b89aa; /* Color azul más oscuro al pasar el mouse */
+}
+
+img {
+    width: 200px; /*ancho*/
+    height: 200px; /*alto*/
+}
+/* Enlace */
+p {
+    text-align: center; /* Centramos el texto */
+    background-color: #7f9797;
+    font-family: cursive;
+}
+
+a {
+    color: #3e71a7; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    background-color: #7f9797;
+    font-family: cursive;
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Mensajes de error */
+.error {
+    color: rgb(231, 117, 72); /* Color rojo para errores */
+    text-align: center; /* Centramos el texto */
+    margin-top: 15px; /* Espaciado superior */
+}
